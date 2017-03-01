@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == REQUEST_CODE_FOR_NAME) {
-            if (resultCode == RESULT_OK) {
+            if (resultCode == RESULT_OK) {  // 返回才能正確判斷
                 TextView tv5 = (TextView) findViewById(R.id.textView4);
                 tv5.setText(data.getStringExtra("ans"));
             }
