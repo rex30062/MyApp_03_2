@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My App_03_2</string>
+    <string name="ok">確定</string>
+    <string name="ok_0">完成</string>
 </resources>
